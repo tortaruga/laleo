@@ -1,0 +1,73 @@
+nav {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        margin: 0; 
+        padding: 1.5rem;
+    } 
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+}
+
+.nav-tabs {
+    background-color: rgb(254, 173, 173);
+
+    li:not(.resources-tab) {
+        padding: 1rem 1.5rem;  
+        border: 1px solid lightcoral; 
+        border-bottom: none; 
+    }
+}
+
+.resources-tab {
+   border: 1px solid lightcoral;
+   border-bottom: none;  
+}
+
+.dropdown {
+    width: 100%; 
+    margin: 0;
+}
+
+
+#dropdown {
+    background-color: transparent;
+    padding: 1rem 1.5rem; 
+    border: none;
+    color: inherit;
+    width: 100%;
+    text-align: left; 
+}
+
+#dropdown-menu { 
+    width: 100%;
+    min-width: unset; 
+}
+
+@media screen and (min-width: 700px) {
+    nav {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 1.5rem;
+
+        h1 {
+            padding: 0;
+        }
+    }
+
+    .nav-tabs {
+        display: flex;
+    }
+     
+}

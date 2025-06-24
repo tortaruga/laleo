@@ -1,0 +1,33 @@
+
+.about {
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 3rem;
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    img {
+        max-width: 30rem;
+    }
+
+}
+
+@media screen and (min-width: 968px) { 
+    .about {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem;
+ 
+        p {
+            max-width: 40rem;
+        }
+    }
+}

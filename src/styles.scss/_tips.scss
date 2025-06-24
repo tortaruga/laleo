@@ -1,0 +1,15 @@
+
+.tips {
+    padding: 2rem;
+    min-height: 100vh;
+
+    .main-accordion {
+        margin-top: 3rem;
+        max-width: 50rem;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: rgb(255, 215, 142);
+    }
+} 
+
