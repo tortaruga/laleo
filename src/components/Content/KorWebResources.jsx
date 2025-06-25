@@ -6,7 +6,7 @@ export default function KorWebResources() {
 
             <Accordion defaultActiveKey='0'>
                 <Accordion.Item eventKey="0">
-                    <AccordionHeader>Dictionaries</AccordionHeader>
+                    <AccordionHeader>📖 Dictionaries</AccordionHeader>
                     <Accordion.Body>
                         <dl>
                             <dt><a target="_blank" href="https://krdict.korean.go.kr/eng/mainAction">krdict</a></dt>
@@ -28,10 +28,10 @@ export default function KorWebResources() {
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="1">
-                    <Accordion.Header>Grammar Analyzer</Accordion.Header>
+                    <Accordion.Header>🔎 Grammar Analyzer</Accordion.Header>
                     <Accordion.Body>
                         <dl>
-                            <dt><a target="_blank" href="mirinae">mirinae</a></dt>
+                            <dt><a target="_blank" href="https://mirinae.io/landing">mirinae</a></dt>
                             <dd>Mirinae translates and analyzes the grammar of any sentence word by word.
                                 This is the feature I use it for, and it is free (it requires that you signup though);
                                 there's also a paid version that offers more features and lessons, if you're interested,
@@ -46,7 +46,7 @@ export default function KorWebResources() {
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="audio">
-                    <Accordion.Header>Text to speech tools</Accordion.Header>
+                    <Accordion.Header>🎤​ Text to speech tools</Accordion.Header>
                     <Accordion.Body>
                         <p>Text to speech tools are useful for when you want to listen
                             how something is pronounced, and also if you want to practice listening.
@@ -67,7 +67,7 @@ export default function KorWebResources() {
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="2">
-                    <Accordion.Header>Grammar, courses, and exercises</Accordion.Header>
+                    <Accordion.Header>📚 Grammar, courses, and exercises</Accordion.Header>
                     <Accordion.Body>
                          <dl>
                             <dt><a target="_blank" href="https://www.koreanclass101.com/">KoreanClass101</a></dt>

@@ -6,7 +6,7 @@ export default function AlphabetResourcesJap() {
 
             <Accordion>
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header>Write and read Japanese</Accordion.Header>
+                    <Accordion.Header>Write and read Japanese ✍️​</Accordion.Header>
                     <Accordion.Body>
                         <p>
                         Japanese has three writing systems: Hiragana,
@@ -26,7 +26,7 @@ export default function AlphabetResourcesJap() {
                             <dt><a target="_blank" href="https://nihongo.maikojapan.com/hiragana/">hiragana</a> and <a target="_blank" href="https://nihongo.maikojapan.com/katakana/">katakana</a> stroke order diagrams</dt>
                             <dd>For whenever you need a refresher on stroke order</dd>
 
-                            <dt><a target="_blank" href="">Hanabira kana chart</a></dt>
+                            <dt><a target="_blank" href="https://hanabira.org/japanese/kana">Hanabira kana chart</a></dt>
                             <dd>If you need to quickly look up a table of all kana. It's simple and useful, and hovering each kana will display the pronunciation</dd>
                         </dl>
 

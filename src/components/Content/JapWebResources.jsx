@@ -6,7 +6,7 @@ export default function JapWebResources() {
 
             <Accordion defaultActiveKey='0'>
                 <Accordion.Item eventKey="0">
-                    <AccordionHeader>Dictionaries</AccordionHeader>
+                    <AccordionHeader>📖 Dictionaries</AccordionHeader>
                     <Accordion.Body>
                         <dl>
                             <dt><a target="_blank" href="https://www.japandict.com/">JapanDict</a></dt>
@@ -29,7 +29,7 @@ export default function JapWebResources() {
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="1">
-                    <Accordion.Header>Grammar Analyzer</Accordion.Header>
+                    <Accordion.Header>🔎​ Grammar Analyzer</Accordion.Header>
                     <Accordion.Body>
                         <dl>
                             <dt><a target="_blank" href="https://hanabira.org/sentence-analysis?sentence=%EC%A0%80%EB%8A%94%20%EB%B9%84%20%EC%98%A4%EB%8A%94%20%EC%9D%BC%EC%9A%94%EC%9D%BC%20%EC%98%A4%ED%9B%84%EC%97%90%20%EB%91%A0%20%EB%A9%94%ED%83%88%20%EB%93%A3%EB%8A%94%20%EA%B2%83%EC%9D%84%20%EC%A2%8B%EC%95%84%ED%95%A9%EB%8B%88%EB%8B%A4.&language=Japanese">Hanabira sentence analyzer</a></dt>
@@ -40,7 +40,7 @@ export default function JapWebResources() {
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="audio">
-                    <Accordion.Header>Text to speech tools</Accordion.Header>
+                    <Accordion.Header>🎤​ Text to speech tools</Accordion.Header>
                     <Accordion.Body>
                         <p>Text to speech tools are useful for when you want to listen
                             how something is pronounced, and also if you want to practice listening.
@@ -61,7 +61,7 @@ export default function JapWebResources() {
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="2">
-                    <Accordion.Header>Grammar, courses, and exercises</Accordion.Header>
+                    <Accordion.Header>​📚 Grammar, courses, and exercises</Accordion.Header>
                     <Accordion.Body>
                          <dl>
                             <dt><a target="_blank" href="https://www.japanesepod101.com/">JapanesePod101</a></dt>

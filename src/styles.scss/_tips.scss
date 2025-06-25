@@ -2,14 +2,18 @@
 .tips {
     padding: 2rem;
     min-height: 100vh;
+    margin-top: 3rem;
 
     .main-accordion {
         margin-top: 3rem;
         max-width: 50rem;
     }
 
-    .accordion-button:not(.collapsed) {
-        background-color: rgb(255, 215, 142);
-    }
 } 
+
+@media screen and (min-width: 700px) {
+    .tips {
+        margin-left: 3rem;
+    }
+}
 

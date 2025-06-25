@@ -73,7 +73,10 @@ li {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  max-width: 1400px;
+  margin-inline: auto;
   align-items: center;
+  justify-content: center;
 }
 .home h1 {
   margin: 0;
@@ -84,7 +87,7 @@ li {
   font-size: 2rem;
 }
 .home img {
-  max-width: 30rem;
+  max-width: 100%;
   display: block;
 }
 
@@ -98,22 +101,28 @@ li {
   .home p {
     max-width: 40rem;
   }
+  .home img {
+    max-width: 30rem;
+  }
 }
 .about {
   min-height: 100vh;
-  padding: 2rem;
+  padding: 2em;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 3em;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 3em;
+  max-width: 1400px;
+  margin-inline: auto;
+  justify-content: center;
 }
 .about h1 {
-  font-size: 3rem;
-  margin-bottom: 2rem;
+  font-size: 3em;
+  margin-bottom: 2em;
 }
 .about img {
-  max-width: 30rem;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 968px) {
@@ -125,6 +134,9 @@ li {
   }
   .about p {
     max-width: 40rem;
+  }
+  .about img {
+    max-width: 30rem;
   }
 }
 .contacts {
@@ -146,15 +158,18 @@ li {
 .tips {
   padding: 2rem;
   min-height: 100vh;
+  margin-top: 3rem;
 }
 .tips .main-accordion {
   margin-top: 3rem;
   max-width: 50rem;
 }
-.tips .accordion-button:not(.collapsed) {
-  background-color: rgb(255, 215, 142);
-}
 
+@media screen and (min-width: 700px) {
+  .tips {
+    margin-left: 3rem;
+  }
+}
 .resources {
   padding: 2rem;
   min-height: 100vh;
@@ -216,7 +231,7 @@ li {
 }
 
 dt {
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 dt a {
   text-decoration: underline;
@@ -233,6 +248,11 @@ dd {
   padding-left: 2rem;
 }
 
+@media screen and (min-width: 700px) {
+  .resources {
+    margin-left: 3rem;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -241,6 +261,7 @@ body {
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #363636;
+  font-size: 0.8rem;
 }
 
 a {
@@ -252,9 +273,12 @@ a:hover {
 }
 
 footer {
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem 0.2rem;
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.65rem;
+  border-top: 1px solid rgba(54, 54, 54, 0.0509803922);
+  box-shadow: 0 0 10px rgba(54, 54, 54, 0.0745098039);
+  margin-top: 5rem;
 }
 
 .link {
@@ -262,4 +286,14 @@ footer {
 }
 .link:hover {
   color: whitesmoke;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 1rem;
+  }
+  footer {
+    font-size: 0.85rem;
+    margin-top: auto;
+  }
 }/*# sourceMappingURL=index.css.map */

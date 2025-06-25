@@ -7,7 +7,7 @@ export default function Tips() {
 
             <Accordion className='main-accordion' defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header>The Method</Accordion.Header>
+                    <Accordion.Header>📒 The Method</Accordion.Header>
                     <Accordion.Body>
                        <p>Here is the "method" I use to learn languages, if we can call it a method. 
                             It is mostly jumping right into it and basking in chaos (which is the only way
@@ -18,7 +18,7 @@ export default function Tips() {
                        
                        <Accordion> 
                         <Accordion.Item eventKey='a'>
-                            <Accordion.Header>Step 1</Accordion.Header>
+                            <Accordion.Header>🌸​ Step 1</Accordion.Header>
                             <Accordion.Body>
                                 The first step of the method is to learn the writing system, 
                                 in case it is different from the ones you already know. 
@@ -28,7 +28,7 @@ export default function Tips() {
                         </Accordion.Item>
 
                         <Accordion.Item eventKey='b'>
-                            <Accordion.Header>Step 2</Accordion.Header>
+                            <Accordion.Header>🌸​ Step 2</Accordion.Header>
                             <Accordion.Body>
                                 <p>The second step (but it can actually be done at the same time as the first, 
                                     or even before) is to get used to the way the language sounds. 
@@ -70,7 +70,7 @@ export default function Tips() {
                         </Accordion.Item>
 
                         <Accordion.Item eventKey='c'>
-                            <Accordion.Header>Step 3</Accordion.Header>
+                            <Accordion.Header>🌸​ Step 3</Accordion.Header>
                             <Accordion.Body>
                                 <p>
                                    For step three you can either go straight to comprehensible input,
@@ -93,7 +93,7 @@ export default function Tips() {
                         </Accordion.Item>
 
                         <Accordion.Item eventKey='d'>
-                            <Accordion.Header>Step 4</Accordion.Header>
+                            <Accordion.Header>🌸​ Step 4</Accordion.Header>
                             <Accordion.Body>
                                 <p>
                                     Step four is following your heart's desire so that the language basically 
@@ -131,7 +131,7 @@ export default function Tips() {
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="1">
-                    <Accordion.Header>Tips</Accordion.Header>
+                    <Accordion.Header>✒️​ Tips</Accordion.Header>
                     <Accordion.Body>
                         <p>Some tips and strategies that I find useful, hoping they
                             might help you too! 
@@ -139,7 +139,7 @@ export default function Tips() {
 
                         <Accordion>
                             <Accordion.Item eventKey='tip-1'>
-                                <Accordion.Header>Music</Accordion.Header>
+                                <Accordion.Header>🎼​ Music</Accordion.Header>
                                 <Accordion.Body>
                                     <p>
                                         Songs are particularly useful: they are easy to remember thanks 
@@ -160,7 +160,7 @@ export default function Tips() {
                             </Accordion.Item>
 
                             <Accordion.Item eventKey='tip-2'>
-                                <Accordion.Header>Movies and Series</Accordion.Header>
+                                <Accordion.Header>🍿​ Movies and Series</Accordion.Header>
                                 <Accordion.Body>
                                     <p>
                                         If you like watching series and movies try finding something 
@@ -185,7 +185,7 @@ export default function Tips() {
                             </Accordion.Item>
 
                             <Accordion.Item eventKey='tip-3'>
-                                <Accordion.Header>Youtube</Accordion.Header>
+                                <Accordion.Header>🎞️ Youtube</Accordion.Header>
                                 <Accordion.Body>
                                     <p>
                                         If you have a passion, interest or hobby, try incorporating it in your 
@@ -201,7 +201,7 @@ export default function Tips() {
                             </Accordion.Item>
 
                             <Accordion.Item eventKey='tip-4'>
-                                <Accordion.Header>Google Searches</Accordion.Header>
+                                <Accordion.Header>​🕵️ Google Searches</Accordion.Header>
                                 <Accordion.Body>
                                     <p>
                                         When you're familiar enough with your target language but want to 
@@ -215,7 +215,7 @@ export default function Tips() {
                             </Accordion.Item>
 
                             <Accordion.Item eventKey='tip-5'>
-                                <Accordion.Header>Reading</Accordion.Header>
+                                <Accordion.Header>📖 Reading</Accordion.Header>
                                 <Accordion.Body>
                                     <p>
                                         Reading is a pain in the ribs. Reading in a foreign language makes you feel 
@@ -247,7 +247,7 @@ export default function Tips() {
                             </Accordion.Item>
 
                             <Accordion.Item eventKey='tip-6'>
-                                <Accordion.Header>Grammar</Accordion.Header>
+                                <Accordion.Header>📝​ Grammar</Accordion.Header>
                                 <Accordion.Body>
                                     <p>
                                         All beginner courses cover the basics of grammar, so whatever online course or app you pick, 
@@ -271,7 +271,7 @@ export default function Tips() {
                             </Accordion.Item>
 
                             <Accordion.Item eventKey='tip-7'>
-                                <Accordion.Header>Sentence Analyzers and AI</Accordion.Header>
+                                <Accordion.Header>🔍​ Sentence Analyzers and AI</Accordion.Header>
                                 <Accordion.Body>
                                     <p>
                                         Sentence analyzers are extremely useful to break down the grammar of sentences. 
@@ -288,7 +288,7 @@ export default function Tips() {
                             </Accordion.Item>
 
                             <Accordion.Item eventKey='tip-8'>
-                                <Accordion.Header>Speaking</Accordion.Header>
+                                <Accordion.Header>🗣️​ Speaking</Accordion.Header>
                                 <Accordion.Body>
                                     <p>
                                         Well, for this you just need to speak. 

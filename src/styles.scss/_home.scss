@@ -6,7 +6,10 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    max-width: 1400px;
+    margin-inline: auto;
     align-items: center;
+    justify-content: center;
 
     h1 {
         margin: 0;
@@ -19,9 +22,10 @@
     }
 
     img {
-        max-width: 30rem; 
+        max-width: 100%; 
         // margin: auto;
         display: block;
+        // flex-grow: 1;
     } 
 }
 
@@ -34,6 +38,10 @@
 
         p {
             max-width: 40rem;
+        }
+
+        img {
+            max-width: 30rem;
         }
     }
 

@@ -5,7 +5,7 @@ export default function AlphabetResourcesKor() {
         <section className="alphabet-resources">
             <Accordion>
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header>Write and read Korean</Accordion.Header>
+                    <Accordion.Header>Write and read Korean ✍️​</Accordion.Header>
                     <Accordion.Body>
                         <p>
                            The Korean writing system is called Hangeul, and it uses letters that
