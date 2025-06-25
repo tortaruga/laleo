@@ -32,7 +32,11 @@ footer {
     border-top: 1px solid #3636360d;
     box-shadow: 0 0 10px #36363613;
     margin-top: 5rem;
- 
+
+    p {
+        max-width: 50rem;
+        margin: auto;
+    }
 }
 
 .link { 

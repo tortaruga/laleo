@@ -280,6 +280,10 @@ footer {
   box-shadow: 0 0 10px rgba(54, 54, 54, 0.0745098039);
   margin-top: 5rem;
 }
+footer p {
+  max-width: 50rem;
+  margin: auto;
+}
 
 .link {
   color: #363636;
