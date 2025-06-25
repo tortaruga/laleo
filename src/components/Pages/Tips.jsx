@@ -58,13 +58,7 @@ export default function Tips() {
                                 <p>
                                     When you feel like you have internalized how it sounds, move to 
                                     step three. This step doesn't have to last too long or be 
-                                    anything too fancy: just until you're familiar with it. Just 
-                                    until you hit that stage when you hear someone speaking 
-                                    Vietnamese, and have no idea what they're saying, but you can 
-                                    confidently say "That's not Korean"; or you're reading some 
-                                    random comments on youtube which mean absolutely nothing to you, 
-                                    but are positively sure about the cadence and intonation of the 
-                                    words, because it's the only way it "sounds Korean".
+                                    anything too fancy, just until you're familiar with it.
                                 </p>
                             </Accordion.Body>
                         </Accordion.Item>

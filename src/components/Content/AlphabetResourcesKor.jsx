@@ -20,7 +20,7 @@ export default function AlphabetResourcesKor() {
 
                             <dt><a target="_blank" href="http://letslearnhangul.com/">Let's learn Hangul</a></dt>
                             <dd>I actually came across this website while organizing the content for this guide,
-                                and I wish knew about it when I was learning Hangeul because it's really fun and makes kearning
+                                and I wish knew about it when I was learning Hangeul because it's really fun and makes learning
                                 very easy. It's perfect if you're looking for an online resource instead of an app, but it 
                                 doesn't cover stroke order. It covers some useful pronunciation quirks though.
                             </dd>
